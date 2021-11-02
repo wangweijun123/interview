@@ -1,5 +1,7 @@
 package com.darren.optimize.interview;
 
+import com.darren.optimize.interview.java.Person;
+
 import org.junit.Test;
 
 import java.io.BufferedInputStream;
@@ -58,5 +60,11 @@ public class ExampleUnitTest {
         long endtime = System.currentTimeMillis();
         // testStreamRead:403ms
         System.out.println("testStreamRead:"+(endtime-starttime)+"ms");
+    }
+
+    @Test
+    public void testzhiling() {
+        Person p = new Person();
+        p.add();
     }
 }
