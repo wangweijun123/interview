@@ -1,7 +1,7 @@
 package com.darren.optimize.interview.java;
 
 public class Person {
-    int age = 100;
+    volatile int age = 100;
 
     public void add() {
         this.age++;
